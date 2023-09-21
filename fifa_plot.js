@@ -101,7 +101,7 @@ const x_scale = d3
     .attr("cx", (d) => x_scale(d.shooting))
     .attr("cy", (d) => y_scale(d.passing))
     .attr("name", (d) => d.short_name)
-    .attr("r", 0.01 * iheight)
+    .attr("r", 0.05 * iheight)
     .style("fill", (d) => c(d.overall));
 
 //scale the font size of the axis titles by
