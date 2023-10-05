@@ -1,0 +1,15 @@
+/* Custom CSS styles for tooltips */
+div#vg-tooltip-element {
+    background-color: lightgrey; 
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 20px
+}
+
+div.vg-tooltip table{
+  height: 100px;
+  width: 200px
+}
+
+
