@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom Bootstrap CSS -->
+    <style>
+
+        .logo {
+            text-align: center;
+            margin-bottom: 35px;
+            padding-top: 5%;
+
+        }
+        .page-title{
+            font-size: 50px;
+            /* Specify the font size */
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding-top: 0px;
+            margin-bottom: 35px;
+        }
+
+        .table-title {
+            font-size: 25px;
+            /* Specify the font size */
+            font-family: 'Arial', sans-serif;
+            padding-left: 5%;
+            margin-bottom: 0px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+        .footer{
+            text-align: center;
+            padding-top: 0px;
+            padding-bottom: 5%;
+            font-size: 15px;
+            /* Specify the font size */
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo">
+        <!-- Add the image with the <img> element -->
+        <img  src="/img.png" alt="Spotify Studios" width="25%" height="auto">
+    </div>
+    <h2 class="page-title">Podcast Dataset at a Glance</h2>
+    <p class="table-title">Search Podcast Shows</p>
+    <div class="row">
+        <div class="col-md-12" id="FirstColumn">
+            <iframe width="100%" height="393" frameborder="0"
+            src="https://observablehq.com/embed/6eb70a116161a3f4@123?cells=viewof+search%2Cmoredata&banner=false"></iframe>
+        </div>
+       
+    </div>
+    
+    <p class="table-title">Search Podcast Episodes</p>
+    <div class="row">
+        <div class="col-md-12" id="FirstColumn">
+            <iframe width="100%" height="393" frameborder="0"
+            src="https://observablehq.com/embed/f904862f2b89cc04@140?cells=viewof+search%2Cmoredata&banner=false"></iframe>
+        </div>        
+    </div>
+    <h3 class="footer">To access the data: https://podcastsdataset.byspotify.com/</h3>
+
+    <!-- <table id="myTable">
+        <thead>
+            <tr>
+                <th>Publisher</th>
+                <th>Show Name</th>
+                <th>Episode Name</th>
+                <th>Release Date</th>
+                <th>Show Category</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <div id="paginationButtons"></div>
+ -->
+    <!-- Include your JavaScript and D3.js here -->
+</body>
+</html>
