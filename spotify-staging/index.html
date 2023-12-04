@@ -9,6 +9,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <!-- Optional Bootstrap jQuery and JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
     <!-- Custom Bootstrap CSS -->
     <style>
         .logo {
@@ -149,10 +156,9 @@
     <div class="row stats-totals">
 
         <div class="col-md-12 chart" id="FourthViz">
-            <p class="chart-title">Shows with Most Episodes</p>
-            <div>
-                <img src="tmp.jpeg" alt="Bar Chart 3" width="85%" height="auto">
-            </div>
+            <p class="chart-title">Shows with Producing the Most Episodes Per Month</p>
+            <div id="bar-chart-3"></div>
+
 
         </div>
     </div>
@@ -178,6 +184,8 @@
 
     <script type="text/javascript" src="01_bar_chart_total_shows.js"></script>
     <script type="text/javascript" src="02_bar_chart_top_categories.js"></script>
+    <script type="text/javascript" src="03_bar_chart_most_episodes_per_month.js"></script>
+
 
     </script>
 </body>
