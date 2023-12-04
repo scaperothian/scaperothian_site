@@ -26,7 +26,7 @@ console.log(`Height within margin: ${iheight}`);
 
 
 //reading in the data
-let data = await d3.csv("./players_20.csv")
+let data = await d3.csv("../players_20.csv")
 console.log(typeof data);
 console.log(data);
 
